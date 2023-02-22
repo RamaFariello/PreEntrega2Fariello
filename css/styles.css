@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+/* grid */
+.grid_container{
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4 1fr);
+    grid-template-areas:    
+    "navbar"
+    "main"
+    "sec2"
+    "footer";
+}
+/* navbar */
+#header{
+    grid-area: navbar;
+    height: 100%;
+    width: 100%;
+}
+
+.navbar_container{
+    display: flex;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/006/413/042/non_2x/gradient-abstract-background-you-can-use-this-background-for-your-content-like-as-video-game-qoute-promotion-blogging-template-presentation-education-sports-card-banner-website-and-anymore-free-vector.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.nav-item:hover{
+    background-color: rgb(221, 144, 44);
+    border-radius: 0.8rem;
+    
+}
+.nav-item{
+    font-size: 20px;
+}
+.img{
+    border-radius: 10px;
+}
+/* main */
+#main{
+    margin-top: 91px;
+    height: 100vh;
+    grid-area: main;
+    background-image: url(https://fondosmil.com/fondo/3354.jpg);
+    background-size: cover;
+}
+.carousel_container{
+    height: 100vh;
+}
+.carousel_container__img{
+    height: 100rem;
+    width: 20rem;
+}
+.carousel_container__h5{
+    height: 70px;
+    position: absolute;
+    top: 60px;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/008/079/335/small/empty-showcase-abstract-pastel-color-background-3d-illustration-free-vector.jpg) ;
+    background-size: cover;
+    
+}
+h5{
+    font-size: 20px;
+    color: rgb(94, 13, 87);
+}
+.carousel_container p{
+    font-size: 1.5rem;
+    color: rgb(94, 13, 87);
+}
+.sec2{
+    height: 50vh;
+    background-image: url(https://fondosmil.com/fondo/3354.jpg);
+}
+.h1_container{
+    height: 100%;
+    text-align: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 200px;
+}
+h1{
+    font-size: 10rem;
+}
+h2{
+    font-size: 5rem;
+    color: rgb(86, 9, 72);
+}
+/* MAIN DISEÑOS */
+.h1{
+    text-align: center;
+    font-size: 5rem ;
+}
+#main_diseños{
+    height: 187vh;
+    grid-area: main;
+    background-image: url(https://fondosmil.com/fondo/3354.jpg);
+    background-size: cover;
+}
+.section_diseños{
+    margin-top: 91px;
+    
+}
+.grid_container_galery{
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 0.3fr);
+    grid-template-rows: repeat(5, 1fr);
+    justify-items: center;
+    align-items: center;
+    border-color: 10px  blueviolet;
+}
+
+.grid_conteiner_galery__img{
+    margin: 20px;
+    height: 30rem;
+    width: 30rem;
+}
+
+/* MAIN DONDE ESTAMOS */
+#main_dondeestamos{
+    height: 100vh;
+    grid-area: main;
+    background-image: url(https://fondosmil.com/fondo/3354.jpg);
+    background-size: cover;
+}
+.section_dondeestamos{
+    margin-top: 91px;
+}
+.maps{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+}
+.h2{
+    text-align: center;
+    color: rgb(83, 2, 83);
+    margin-bottom: 160px;
+    font-size: 7rem;
+}
+/* MAIN PRESS ON */
+#main_presson{
+    height: 100vh;
+    grid-area: main;
+    background-image: url(https://fondosmil.com/fondo/3354.jpg);
+    background-size: cover;
+    margin-top: 91px;
+}
+.tiltle{
+    text-align: center;
+}
+#info{
+    height: 87%;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.imagen_contenedor{
+    width: 40%;
+    margin-left: 200px;
+}
+.colum{
+    display: flex;
+    flex-direction: column;
+}
+.what{
+    margin-left: 100px ;
+    width: 50%;
+    font-size: 25px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(159, 109, 207);
+    border-radius: 10px;
+}
+.letra_color{
+    color: rgb(137, 25, 143);
+}
+.option1{
+    width: 450px;
+    height: 500px;
+}
+/* FOOTER */
+#footer{
+    height: 9vh;
+    width: 100%;
+    background-color: rgb(66, 66, 66);
+    grid-area: footer;
+    position: absolute;
+    top: 1533px;
+}
+.ul{
+    height: 100%;
+    display: flex;
+    flex-direction: wrap;
+    justify-content: flex-end;
+    height: 50px;
+    width: 50px;
+} 
+.ig{
+    position: absolute;
+    top: 2rem;
+    left: 174rem;
+    max-width: 80px;
+    max-height:80px;
+}
+.wsp{ 
+    position: fixed;
+    top: 89rem;
+    left: 181rem;
+    max-width: 50px;
+    max-height: 50px;
+}
+.tiktok{
+    position: absolute;
+    top: 2rem;
+    left: 170rem;
+    max-width: 60px;
+    max-height:60px;
+}
+.fc{
+    position: absolute;
+    top: 2.5rem;
+    left: 166rem;
+    max-width: 40px;
+    max-height:40px;
+}
+.hour2{
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    bottom: 4rem;
+}
+.hour1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    bottom: 5rem;
+}
+/* FOOTER DISEÑOS */
+#footer_diseños{
+    height: 9vh;
+    width: 100%;
+    background-color: rgb(66, 66, 66);
+    grid-area: footer;
+    position: absolute;
+    
+}
+/* FOOTER DONDE ESTAMOS */
+#footer_dondeestamos{
+    height: 9vh;
+    width: 100%;
+    background-color: rgb(66, 66, 66);
+    grid-area: footer;
+    position: absolute;
+}
+/* FOOTER PRESS ON */
+#footer_presson{
+    height: 9vh;
+    width: 100%;
+    background-color: rgb(66, 66, 66);
+    grid-area: footer;
+    position: absolute;
+}
+
+/* VISTA MOBILE */
+@media screen and (max-width: 390px){
+                    /* INICIO */
+    
+    /* navbar */
+    #header{
+        margin-top: 120px;
+    }
+    .img{
+        margin-left: 68px;
+    }
+    /* main */
+    .sec2{
+        height: 55vh;
+    }
+    .h1_container{
+        margin-top: 135px;
+    }
+    h1{
+        font-size: 5rem;
+    }
+    h2{
+        font-size: 3rem;
+    }
+    /* footer */
+    .ul{
+        display: none;
+    }
+    .hour2{
+        margin-top: 55px;
+        font-size: 1.5rem;
+    }
+    .hour1{
+        font-size: 1.5rem;
+    }
+                        /* DONDE ESTAMOS */   
+    /* main */
+    #main_dondeestamos{
+        height: 86vh;
+    }
+    .h2{
+        font-size: 4rem;
+    }
+    .mapa{
+        height: 350px;
+        width: 350px;
+    }
+
+                        /* DISEÑOS */
+    /* main */
+    #main_diseños{
+        height: 602vh;
+    }
+    .grid_container_galery{
+        grid-template-columns: 1fr;
+    }
+                        /* PRESS ON */
+    #main_presson{
+        height: 86vh;
+    }
+    #info{
+        width: 100%;
+    }
+    .info{
+    width: 100%;
+    display: block;
+    }
+    .what{
+        padding: 15px;
+        width: 100%;
+        text-align: start;
+        font-size: 1.2rem ;
+        margin: 0;
+    }
+    .imagen_contenedor{
+        width: 100%;
+        margin: 0;
+        margin-top: 10px;
+    }
+    .option1{
+        height: 40rem;
+        width:35rem;
+        margin-left: 22px;
+        margin-top: 10px;
+    }
+}
