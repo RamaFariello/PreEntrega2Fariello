@@ -42,18 +42,20 @@ html{
 }
 /* main */
 #main{
+    grid-area: main;
     margin-top: 91px;
     height: 100vh;
-    grid-area: main;
     background-image: url(https://fondosmil.com/fondo/3354.jpg);
     background-size: cover;
 }
 .carousel_container{
-    height: 100vh;
+    margin: auto;
+    /* width: 60%; */
 }
 .carousel_container__img{
-    height: 100rem;
-    width: 20rem;
+    margin: auto;
+    height: 96rem;
+    width: 40%;
 }
 .carousel_container__h5{
     height: 70px;
@@ -72,6 +74,7 @@ h5{
     color: rgb(94, 13, 87);
 }
 .sec2{
+    grid-area: sec2;
     height: 50vh;
     background-image: url(https://fondosmil.com/fondo/3354.jpg);
 }
@@ -97,8 +100,8 @@ h2{
     font-size: 5rem ;
 }
 #main_diseños{
-    height: 187vh;
     grid-area: main;
+    height: 187vh;
     background-image: url(https://fondosmil.com/fondo/3354.jpg);
     background-size: cover;
 }
@@ -126,8 +129,8 @@ h2{
 
 /* MAIN DONDE ESTAMOS */
 #main_dondeestamos{
-    height: 100vh;
     grid-area: main;
+    height: 100vh;
     background-image: url(https://fondosmil.com/fondo/3354.jpg);
     background-size: cover;
 }
@@ -151,8 +154,8 @@ h2{
 }
 /* MAIN PRESS ON */
 #main_presson{
-    height: 100vh;
     grid-area: main;
+    height: 100vh;
     background-image: url(https://fondosmil.com/fondo/3354.jpg);
     background-size: cover;
     margin-top: 91px;
@@ -196,10 +199,10 @@ h2{
 }
 /* FOOTER */
 #footer{
+    grid-area: footer ;
     height: 9vh;
     width: 100%;
     background-color: rgb(66, 66, 66);
-    grid-area: footer;
     position: absolute;
     top: 1533px;
 }
@@ -255,27 +258,27 @@ h2{
 }
 /* FOOTER DISEÑOS */
 #footer_diseños{
+    grid-area: footer;
     height: 9vh;
     width: 100%;
     background-color: rgb(66, 66, 66);
-    grid-area: footer;
     position: absolute;
     
 }
 /* FOOTER DONDE ESTAMOS */
 #footer_dondeestamos{
+    grid-area: footer;
     height: 9vh;
     width: 100%;
     background-color: rgb(66, 66, 66);
-    grid-area: footer;
     position: absolute;
 }
 /* FOOTER PRESS ON */
 #footer_presson{
+    grid-area: footer;
     height: 9vh;
     width: 100%;
     background-color: rgb(66, 66, 66);
-    grid-area: footer;
     position: absolute;
 }
 
@@ -291,11 +294,11 @@ h2{
         margin-left: 68px;
     }
     /* main */
+    .carousel_container__img{
+        width: 100%;
+    }
     .sec2{
         height: 55vh;
-    }
-    .h1_container{
-        margin-top: 135px;
     }
     h1{
         font-size: 5rem;
@@ -330,11 +333,12 @@ h2{
                         /* DISEÑOS */
     /* main */
     #main_diseños{
-        height: 602vh;
+        height: 612vh;
     }
     .grid_container_galery{
         grid-template-columns: 1fr;
     }
+
                         /* PRESS ON */
     #main_presson{
         height: 86vh;
