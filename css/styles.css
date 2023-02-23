@@ -328,13 +328,13 @@ footer a {
         display: flex;
         justify-content: end;
     }
-    .img{
-        
-    }
     .navbar-toggler{
         padding: 7px;
     }
     /* main */
+    #main{
+        margin-top: 90px;
+    }
     .carousel_container__img{
         width: 100%;
     }
@@ -362,6 +362,7 @@ footer a {
     /* main */
     #main_dondeestamos{
         height: 86vh;
+        margin-top: 188px;
     }
     .h2{
         font-size: 4rem;
@@ -375,6 +376,7 @@ footer a {
     /* main */
     #main_diseños{
         height: 612vh;
+        margin-top: 188px;
     }
     .grid_container_galery{
         grid-template-columns: 1fr;
@@ -383,6 +385,7 @@ footer a {
                         /* PRESS ON */
     #main_presson{
         height: 86vh;
+        margin-top: 188px;
     }
     #info{
         width: 100%;
