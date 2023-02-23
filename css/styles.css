@@ -410,8 +410,3 @@ footer a {
         margin-top: 10px;
     }
 }
-@media screen and (max-width: 320px) {
-    .img{
-        display: none;
-    }
-}
